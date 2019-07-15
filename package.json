@@ -1,0 +1,24 @@
+{
+  "name": "gc-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node bin/server.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/server.ts"
+  },
+  "dependencies": {
+    "apollo-server": "^2.6.9",
+    "graphql": "^14.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "chalk": "^2.4.2",
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}

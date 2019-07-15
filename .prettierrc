@@ -1,0 +1,11 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "filepath": "**.js",
+  "parser": "babel",
+  "overrides": [
+    {
+      "files": "*.js"
+    }
+  ]
+}
