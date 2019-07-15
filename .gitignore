@@ -1,0 +1,9 @@
+# Downloaded Modules
+node_modules
+
+# Environment Variable
+.env
+
+# NYC output 
+.nyc_output
+coverage
