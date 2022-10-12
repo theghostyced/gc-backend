@@ -8,7 +8,7 @@
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/server.ts"
   },
   "dependencies": {
-    "apollo-server": "^2.6.9",
+    "apollo-server": "^2.25.4",
     "graphql": "^14.4.2"
   },
   "devDependencies": {
